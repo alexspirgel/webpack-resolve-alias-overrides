@@ -1,0 +1,22 @@
+{
+  "name": "webpack-resolve-alias-overrides",
+  "version": "1.0.0",
+  "description": "A Webpack plugin for overriding resolve aliases.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexspirgel/webpack-resolve-alias-overrides.git"
+  },
+  "keywords": [
+    "webpack",
+    "resolve",
+    "alias",
+    "override"
+  ],
+  "author": "Alexander Spirgel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexspirgel/webpack-resolve-alias-overrides/issues"
+  },
+  "homepage": "https://github.com/alexspirgel/webpack-resolve-alias-overrides#readme"
+}
