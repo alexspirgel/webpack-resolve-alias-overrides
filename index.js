@@ -11,9 +11,7 @@ class ResolveAliasOverrides {
 					for (const path in thisAlias) {
 						const thisPath = thisAlias[path];
 						const newRequestStr = request.request.replace(alias, thisPath);
-						console.log(newRequestStr);
 						if (fs.existsSync(newRequestStr)) {
-							console.log('^ FOUND');
 							const obj = Object.assign({}, request, {
 								request: newRequestStr
 							});
